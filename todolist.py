@@ -45,7 +45,7 @@ class TodoList:
         self._todos.append(todo)
     
     def __str__(self):
-        output_lines = [f"---- Today's Todos ----"]
+        output_lines = [f"----- Today's Todos -----"]
         output_lines += [str(todo) for todo in self._todos]
         return '\n'.join(output_lines)
     
